@@ -15,6 +15,7 @@ export type SearchParams = {
   checkout: string;
 };
 
+
 async function SearchPage({ searchParams }: Props) {
   if (!searchParams.url) return notFound();
 
